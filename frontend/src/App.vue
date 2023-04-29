@@ -1,16 +1,17 @@
 <script setup>
-  import Header from './components/header.vue'
+  import Menu from "./components/MenuBlock.vue"
+
 </script>
 
 <template>
-  <main>
-      <Header />
-      <RouterView />
-  </main>
+    <div class="flex">
+        <Menu class="menu"/>
+        <RouterView/>
+    </div>
+
 </template>
 
-<style scoped>
-  main{
-      margin: 0 15vw 15vw 15vw;
-  }
+<style>
+
+
 </style>
