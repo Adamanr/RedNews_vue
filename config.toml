@@ -1,0 +1,7 @@
+app_name = "RedNews"
+
+[mysql]
+user = "admin"
+password = "Adamanka101"
+database = "RedRust"
+host = "redrust.ru"
